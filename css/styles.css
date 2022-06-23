@@ -1,6 +1,26 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: #d97728;
+  background-color: rgb(86, 219, 72);
   font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  border: 0;
+  border-radius: 0;
+}
+.navbar-brand {
+  padding-right: 15px;
+}
+.navbar-brand h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 0px 1px 5px 1px #d97728;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+  margin-right: 50px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
 }
